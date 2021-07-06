@@ -31,12 +31,30 @@ h3 {
   line-height: 40px;
   margin: 10px 0;
 }
+.col-3 {
+  width: 28%;
+  border-radius: 10px;
+  padding: 18px;
+}
+.col-3:first-child {
+  margin-left: 5%;
+}
+.col-3:nth-child(2) {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.col-3:last-child {
+  margin-right: 5%;
+}
+.box-shadow {
+  box-shadow: 5px 5px 33px grey;
+}
 .orange-color {
   color: #fba24f;
 }
 .flexible-container {
   display: flex;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .half-width {
   width: 45%;
@@ -90,31 +108,16 @@ p {
   padding: 0 25% 40px 25%;
   text-align: center;
 }
-.recipie-itme:first-child {
-  margin-left: 5%;
-}
-.recipie-itme:nth-child(2) {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-.recipie-itme:last-child {
-  margin-right: 5%;
-}
-
-.recipie-itme {
-  width: 28%;
-  border-radius: 10px;
-  padding: 18px;
-  box-shadow: 5px 5px 33px grey;
-}
-.recipie-itme img {
+.recipie-cover {
   width: 337px;
   height: 232px;
 }
 
-element.style {
-}
-.recipie-itme:nth-child(2) {
-  margin-left: 3%;
-  margin-right: 3%;
+.follower-area {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 80px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  text-align: center;
 }
