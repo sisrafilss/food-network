@@ -20,12 +20,17 @@ h1 {
   line-height: 130%;
   margin-bottom: 25px;
 }
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
 .orange-color {
   color: #fba24f;
 }
 .flexible-container {
   display: flex;
-  padding: 60px 0 120px 0;
+  padding-bottom: 120px;
 }
 .half-width {
   width: 45%;
@@ -55,4 +60,28 @@ p {
   text-decoration: none;
   margin-top: 20px;
   display: inline-block;
+}
+.banar-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+}
+#about-me {
+  background-image: url("images/about-me-bg.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.gentleman {
+  width: 338px;
+  height: 536px;
+}
+.about-me-description {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  margin-bottom: 40px;
 }
