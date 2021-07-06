@@ -52,10 +52,30 @@ h3 {
 .orange-color {
   color: #fba24f;
 }
+
+/* Main Navigation */
+.menu {
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+  background-color: #fba24f;
+  padding: 15px 0;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #fff;
+}
 .flexible-container {
   display: flex;
   padding-bottom: 50px;
 }
+
 .half-width {
   width: 45%;
   padding-left: 5%;
@@ -133,4 +153,20 @@ p {
 #footer p {
   color: #fff;
   font-size: 16px;
+}
+
+#our-mission {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: gray;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#our-mission h2 {
+  color: #fba24f;
+}
+#our-mission p {
+  color: #fff;
 }
