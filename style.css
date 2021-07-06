@@ -25,12 +25,18 @@ h2 {
   font-weight: bold;
   margin-bottom: 25px;
 }
+h3 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 10px 0;
+}
 .orange-color {
   color: #fba24f;
 }
 .flexible-container {
   display: flex;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 .half-width {
   width: 45%;
@@ -41,12 +47,12 @@ h2 {
   width: 100%;
 }
 p {
+  font-family: Manrope;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 160%;
-  letter-spacing: -0.02em;
-  color: #828282;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
 }
 .link-btn {
   font-style: normal;
@@ -77,11 +83,38 @@ p {
   width: 338px;
   height: 536px;
 }
-.about-me-description {
-  font-family: Manrope;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #18191f;
-  margin-bottom: 40px;
+#recipie-area {
+  padding: 80px 0;
+}
+.recipie-header {
+  padding: 0 25% 40px 25%;
+  text-align: center;
+}
+.recipie-itme:first-child {
+  margin-left: 5%;
+}
+.recipie-itme:nth-child(2) {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.recipie-itme:last-child {
+  margin-right: 5%;
+}
+
+.recipie-itme {
+  width: 28%;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 5px 5px 33px grey;
+}
+.recipie-itme img {
+  width: 337px;
+  height: 232px;
+}
+
+element.style {
+}
+.recipie-itme:nth-child(2) {
+  margin-left: 3%;
+  margin-right: 3%;
 }
